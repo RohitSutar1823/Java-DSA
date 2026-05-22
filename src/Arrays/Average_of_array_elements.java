@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Average {
+public class Average_of_array_elements {
 
 static double getAverage(int [] arr)
 	{
