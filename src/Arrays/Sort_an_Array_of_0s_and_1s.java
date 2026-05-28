@@ -16,9 +16,13 @@ public class Sort_an_Array_of_0s_and_1s
 				arr[j]=1;
 			}
 			if(arr[i]==0)
+			{
 				i++;
+			}
 			if(arr[j]==1)
+			{
 				j--;
+			}
 		}
 		return arr;
 	}
