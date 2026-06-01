@@ -28,9 +28,6 @@ public class Two_Sum
 		{
 			System.out.println(val);
 		}
-
-;
-
 	}
 
 }
