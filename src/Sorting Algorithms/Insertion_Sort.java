@@ -2,7 +2,7 @@ public class Insertion_Sort {
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
-            int current = i;
+            //int current = i;
             int currentValue = arr[i];
             int prev = i - 1;
 
