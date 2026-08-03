@@ -1,4 +1,31 @@
-/.classpath
-/.project
-/.settings
-/bin
+# ----------------------------------
+# Java Compiled Bytecode
+# (This hides the .class files!)
+# ----------------------------------
+*.class
+
+# ----------------------------------
+# Eclipse IDE Files
+# ----------------------------------
+.classpath
+.project
+.settings/
+bin/
+
+# ----------------------------------
+# VS Code Files
+# ----------------------------------
+.vscode/
+
+# ----------------------------------
+# OS Generated Files (Windows/Mac)
+# ----------------------------------
+Thumbs.db
+.DS_Store
+
+# ----------------------------------
+# Packaged/Archive Files
+# ----------------------------------
+*.jar
+*.war
+*.zip
