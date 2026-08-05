@@ -4,7 +4,7 @@ public class Binary_Search {
         int n = arr.length;
         int start = 0;
         int end = n - 1;
-        int mid = (start + end) / 2;
+        int mid = start + (end - start) / 2;
 
         while (start <= end) {
             // compare target with midValue
@@ -19,7 +19,7 @@ public class Binary_Search {
                 end = mid - 1;
             }
             // update mid
-            mid = (start + end) / 2;
+            mid = start + (end - start) / 2;
         }
         // agar app yaha tk aagye h, iska mtlb hai
         // target not found
